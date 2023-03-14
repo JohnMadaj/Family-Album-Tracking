@@ -111,7 +111,7 @@ class Tracker:
 
 
 if __name__ == '__main__':
-    t = Tracker("Tracker_output.tsv")
+    t = Tracker("tracker_output.tsv")
     while True:
         cmd = int(input("What to do?\n1 - Add Selection\n2 - Print Tracker\n3 - Write to File\n0 - Quit"))
         if not cmd:
